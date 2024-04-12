@@ -4,7 +4,7 @@ def encode_password(password):
     encoded_password = ""
     for i in password:
         x = int(i) + 3
-        encoded_password += str(i)
+        encoded_password += str(x)
     return encoded_password
 
 if __name__ == '__main__':
